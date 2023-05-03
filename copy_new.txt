@@ -1,0 +1,1 @@
+In data science, model building refers to the process of developing a statistical or machine learning model to predict or understand a phenomenon based on a given set of input da
