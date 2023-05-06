@@ -1,0 +1,48 @@
+INFO:root:log this line of execution
+INFO:root:log this line of execution
+INFO:root:this is my print
+WARNING:root:this is my warning message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:this is critical message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:this is critical message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:this is critical message
+INFO:root:log this line of execution
+INFO:root:this is my print
+WARNING:root:this is my warning message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:this is critical message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:this is critical message
+INFO:root:log this line of execution
+INFO:root:this is my print
+WARNING:root:this is my warning message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:this is critical message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:this is critical message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:this is critical message
+INFO:root:we are iterating through our list and our local var is i
+INFO:root:we are iterating through our list and our local var is i
+INFO:root:we are iterating through our list and our local var is i
+INFO:root:we are iterating through our list and our local var is i
+INFO:root:we are iterating through our list and our local var is i
+INFO:root:i am inside if statement and i am trying to check list type
+INFO:root:I am in another for loop for list inside list element
+INFO:root:I am inside if statement
+INFO:root:I am in another for loop for list inside list element
+INFO:root:I am inside if statement
+INFO:root:I am in another for loop for list inside list element
+INFO:root:I am inside if statement
+INFO:root:we are iterating through our list and our local var is i
+INFO:root:we are iterating through our list and our local var is i
