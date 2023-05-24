@@ -236,6 +236,30 @@ The choice between parametric and non-parametric tests depends on the characteri
 
 
 
+explain about bias and variance  in simple term with example 
+
+
+Bias and variance are two important concepts in machine learning that help us understand the behavior and performance of a model.
+
+**Bias** refers to the error introduced by the assumptions made by the model in order to simplify the learning process. A model with high bias tends to oversimplify the data, resulting in underfitting. In simple terms, bias measures how far off the predictions of the model are from the true values.
+
+For example, let's consider a linear regression model used to predict housing prices. If the model assumes that the relationship between the features (e.g., square footage, number of bedrooms) and the target variable (price) is a simple straight line, it may not capture the complex patterns in the data. This leads to a high bias, and the model may consistently underestimate or overestimate the prices.
+
+**Variance** refers to the variability of the model's predictions for different training sets. A model with high variance is sensitive to the training data and tends to overfit. In simple terms, variance measures how much the predictions of the model vary when trained on different subsets of the data.
+
+Continuing with the housing price prediction example, a model with high variance may fit the training data very well, but it may fail to generalize to new, unseen data. It may pick up noise or outliers in the training set, resulting in a highly flexible model that does not capture the true underlying patterns in the data.
+
+To better understand the relationship between bias and variance, we can use the analogy of target practice:
+
+- High bias, low variance: Imagine a shooter who consistently hits the target, but all the shots are far from the bullseye. This represents a model with high bias but low variance. The model consistently predicts values that are far from the true values, but the predictions are similar across different training sets.
+
+- Low bias, high variance: Now imagine a shooter whose shots are scattered all over the target, some close to the bullseye and others far away. This represents a model with low bias but high variance. The model may capture the true values accurately in some cases, but its predictions vary significantly across different training sets.
+
+The goal in machine learning is to find the right balance between bias and variance. Ideally, we want a model that minimizes both sources of error. This is known as the bias-variance trade-off. Techniques like regularization
+
+
+
+
 
 
 
