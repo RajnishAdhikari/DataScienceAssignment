@@ -294,7 +294,20 @@ These are just a few examples of how deep learning algorithms are applied in rea
 
 
 
+why do we perform feature scaling
 
+
+We perform feature scaling in order to bring all the features onto the same scale or range. There are a few reasons why feature scaling is important in machine learning:
+
+1. **Preventing bias**: Features with larger scales can dominate the learning process compared to features with smaller scales. This can lead to biased or incorrect results. By scaling the features, we ensure that all features contribute equally to the learning process.
+
+2. **Improving convergence**: Many machine learning algorithms use optimization algorithms to find the best weights or coefficients for the model. These optimization algorithms can converge faster and more accurately when the features are on the same scale. If features have different scales, the optimization process may take longer or struggle to find the optimal solution.
+
+3. **Ensuring similarity measures**: Some machine learning algorithms, such as K-nearest neighbors (KNN) or clustering algorithms, use distance-based similarity measures. When features have different scales, the distance calculations can be heavily influenced by the features with larger scales. Scaling the features ensures that the distances are calculated based on the actual patterns in the data rather than the scale differences.
+
+4. **Improving model performance**: Certain algorithms, such as support vector machines (SVM) or neural networks, are sensitive to the scale of features. Inconsistent scales can lead to poor performance or biased predictions. Feature scaling helps these algorithms perform better and produce more accurate results.
+
+By performing feature scaling, we create a level playing field for all features, ensuring that they have equal importance in the learning process. This can lead to improved model performance, better convergence, and more reliable results. However, it's important to note that not all machine learning algorithms require feature scaling. Algorithms like decision trees or random forests are not affected by feature scaling since they make decisions based on feature comparisons rather than absolute values.
 
 
 
