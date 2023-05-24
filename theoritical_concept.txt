@@ -207,6 +207,33 @@ These are just a few examples of the algorithms used in deep learning, NLP, text
 
 
 
+explain the difference between parametric and non parametric test with example and give 
+some of the real life example too
+
+Parametric and non-parametric tests are two types of statistical tests used to analyze data and make inferences about populations. The main difference between them lies in the assumptions they make about the underlying distribution of the data.
+
+**Parametric tests** are based on specific assumptions about the population distribution, such as normality and homogeneity of variances. These tests estimate the parameters of the distribution (e.g., mean, standard deviation) and make statistical inferences based on those parameters. Parametric tests generally have more statistical power when the assumptions are met, but they can be sensitive to violations of these assumptions.
+
+Example: The t-test is a parametric test used to compare the means of two groups. It assumes that the data in each group are normally distributed and have equal variances. For example, a t-test can be used to compare the average test scores of two different teaching methods to determine if there is a significant difference.
+
+Real-life examples of parametric tests:
+1. One-way ANOVA: Used to compare means across three or more groups.
+2. Linear regression: Used to model the relationship between a dependent variable and one or more independent variables.
+3. Paired t-test: Used to compare means of two related samples, such as before and after measurements.
+
+**Non-parametric tests**, on the other hand, do not rely on specific assumptions about the population distribution. Instead, they use the ranks or orders of the data values to make inferences. Non-parametric tests are often considered more robust to violations of assumptions and can be used when the data do not meet the assumptions of parametric tests.
+
+Example: The Mann-Whitney U test is a non-parametric test used to compare the medians of two groups. It does not assume any specific distribution of the data, making it a suitable alternative when the data are not normally distributed.
+
+Real-life examples of non-parametric tests:
+1. Wilcoxon signed-rank test: Used to compare the medians of two related samples.
+2. Kruskal-Wallis test: Used to compare medians across three or more groups.
+3. Spearman's rank correlation: Used to measure the strength and direction of the relationship between two variables when the data are ordinal or not normally distributed.
+
+The choice between parametric and non-parametric tests depends on the characteristics of the data and the assumptions being made. Parametric tests are more powerful when the assumptions hold, but non-parametric tests provide an alternative when the assumptions are violated or when dealing with non-normal or skewed data.
+
+
+
 
 
 
