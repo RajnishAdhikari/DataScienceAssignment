@@ -7,6 +7,7 @@ app = Flask(__name__)
 # get and post both means sending data 
 # in get we pass data using url but in post we pass data in the body
 # for eg get means simple google search and post means filling form
+# post is more secure than get 
 def home_page():
     return render_template('index.html')
 
@@ -35,6 +36,8 @@ def math_ops():
 
 
 
+
+# passing the data through postman 
 @app.route('/postman_action',methods=['POST'])
 def math_ops1():
     if(request.method == 'POST'):
