@@ -3,7 +3,10 @@ from flask import Flask,request ,render_template , jsonify
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/', methods = ['GET', 'POST'])
+# get and post both means sending data 
+# in get we pass data using url but in post we pass data in the body
+# for eg get means simple google search and post means filling form
 def home_page():
     return render_template('index.html')
 
